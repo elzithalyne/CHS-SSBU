@@ -12,7 +12,7 @@ document.getElementById("signInForm").addEventListener("submit", function(event)
         return;
     }
 
-    fetch("http://localhost:3000/checkin", {
+    fetch("https://competitor-check-in.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name: name })
