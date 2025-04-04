@@ -43,7 +43,7 @@ app.post('/checkin', (req, res) => {
         if (competitor) {
             const formattedName = capitalizeName(name);
             if (competitor.checkedIn) {
-                console.log(`${formattedNameame} is already checked in`)
+                console.log(`${formattedName} is already checked in`)
                 return res.send(`${formattedName} is already checked in.`);
             } else {
                 competitor.checkedIn = true;
