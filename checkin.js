@@ -4,7 +4,7 @@ document.getElementById("signInForm").addEventListener("submit", function(event)
     var name = document.getElementById("nameInput").value;
     var messageBox = document.getElementById("message");
 
-    fetch("https://script.google.com/macros/s/AKfycbx2i0SSU1wb8URHvBLe-dMfAgJGaqMz7C-Kkr3uVjiDPbDaHA_IdUB1jNBpgA3v4rti-A/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbzwWB3zzIfJBO9G2UOZcl14J4woG2VcRglljUd8UGP4lXKHf9a2nGhCZCcA9ABwaAIc4A/exec", {
         method: "POST",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({name: name})
