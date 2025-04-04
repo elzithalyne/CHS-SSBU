@@ -1,6 +1,17 @@
 [
   {
     "name": "placeholder",
-    "checkedIn": false
+    "checkedIn": true,
+    "bracketSpot": 1
+  },
+  {
+    "name": "John Doe",
+    "checkedIn": true,
+    "bracketSpot": 2
+  },
+  {
+    "name": "Jane Smith",
+    "checkedIn": true,
+    "bracketSpot": 3
   }
 ]
