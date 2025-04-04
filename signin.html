@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competitor Sign-In</title>
+    <style>
+        input, button{
+            border: none;
+            outline: none;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background: black;
+            background-color: cover;
+            font-family: Arial, Helvetica, sans-serif; 
+        }
+
+        .container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+       }
+
+       .content{
+            background-color: lightgray;
+            width: 90%;
+            max-width: 600px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+       }
+
+        input {
+            display: block;
+            margin: 0 auto 10px auto;
+            width: 250px;
+            background-color: white;
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);
+            border-radius: 12px;
+
+        }
+        button {
+            display: block;
+            margin: 0 auto;
+            padding: 4px 6px;
+            border-radius: 24px;
+            background-color: gray;
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+            cursor:pointer;
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            background: rgb(94, 94, 94);
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, .2);
+            transform: translateY(2px);
+        }
+
+        button:active {
+            background: rgb(82, 82, 82);
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);
+            transform: translateY(0px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+        </style>
+            <h1 style="font-size: 20px; font-family: Arial, Helvetica, sans-serif; text-align: center;">May 13th CHS SSBU <br> Competitor Sign-In</h1>
+            <form id="signInForm">    
+                <input id="nameInput" type="text" placeholder="Enter Your Name Here" style="font-size: 16px; font-family: Arial, Helvetica, sans-serif; text-align: center;">
+                <button id="submit" style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; text-align: center;"> Check In </button>
+            </form>    
+            <p style="font-size: 10px; font-family: Arial, Helvetica, sans-serif; text-align: center;"> This will be used to check if you are in the competitors list. </p>
+            <div id="message" style="display: none; padding: 10px; border-radius: 5px; margin-top: 10px;"></div>
+            
+        </div>
+    </div>
+    <script src="checkin.js"></script>
+</body>
