@@ -7,7 +7,7 @@ let maintenance = document.getElementById('maint')
 
 function redirectMSB() {
 
-    window.open("competitor-check-in.onrender.com/rules.html")
+    window.open("https://competitor-check-in.onrender.com/rules.html")
 
 }
 
