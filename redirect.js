@@ -1,5 +1,5 @@
 function redirect() { 
-    window.open ("https://competitor-check-in.onrender.com/prizes.html")
+    window.open ("http://competitor-check-in.onrender.com/prizes.html")
     console.log("Prizes Window Opened")
 }
 
@@ -7,10 +7,7 @@ let maintenance = document.getElementById('maint')
 
 function redirectMSB() {
 
-    maintenance.style.display = "block";
-    maintenance.style.color = "red";
-    maintenance.style.border = "2px solid red";
-    maintenance.textContent = "MSB is not yet connected. See Mr. Richman in room R2 for entry purchase."
+    window.open("competitor-check-in.onrender.com/rules.html")
 
 }
 
