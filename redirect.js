@@ -1,5 +1,5 @@
 function redirect() { 
-    window.open ("http://localhost:3000/prizes.html")
+    window.open ("https://competitor-check-in.onrender.com/prizes.html")
     console.log("Prizes Window Opened")
 }
 
