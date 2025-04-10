@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0px;
     background: URL('Pattern.PNG')
+    background-size: 100vh 100vw;
 }
 
 .container {
