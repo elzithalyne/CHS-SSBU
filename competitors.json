@@ -10,8 +10,38 @@
     "bracketSpot": 2
   },
   {
-    "name": "Jane Smith",
+    "name": "Kendall Weinnberg",
     "checkedIn": false,
     "bracketSpot": 3
+  },
+  {
+    "name": "Kevin Verdin",
+    "checkedIn": false,
+    "bracketSpot": 4
+  },
+  {
+    "name": "Savannah Dudeguy"
+    "checkedIn": false,
+    "bracketSpot": 9
+  },
+  {
+    "name": "Tomson",
+    "checkedIn": false,
+    "bracketSpot": 6
+  },
+  {
+    "name": "Fernie Mendoza",
+    "checkedIn": false,
+    "bracketSpot": 7
+  },
+  {
+    "name": "Jayden Banuelos",
+    "checkedIn": false,
+    "bracketSpot": 10
+  },
+  {
+    "name": "L4A",
+    "checkedIn": false,
+    "bracketSpot": 8
   }
 ]
